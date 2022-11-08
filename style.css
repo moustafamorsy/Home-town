@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+body{
+    background-color: hsl(24, 80%, 86%);
+}
+
+h1{
+    
+    width: fit-content;
+    padding: 10px;
+    
+    margin: 0 auto;
+}
+h3{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: rgb(240, 92, 92);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+   
+}
+
+main{
+    background-image: url("https://cdn.britannica.com/47/194547-050-52813FB0/aerial-view-Cairo-Egypt.jpg");
+    height: 300px;
+    width: 100%;
+ background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 85px;
+    color: white;
+}
+
+.img{
+    width: 100px;
+   height: 100px;
+    border-radius: 100px;
+}
+
+.title{
+  padding: 40px 0;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+h4{
+    margin-top: 20px;
+}
+
+#Activity{
+    text-align: justify;
+    text-align-last: center;
+    background-color: #fde7ce;
+    padding-bottom: 30px;
+    color: #967d67;
+}
+
+p{
+    font-size: 0.75rem;
+    width: 250px;
+    margin-top: 15px;
+    line-height: 17px;
+  
+}
+
+@media only screen and (max-width: 760px) {
+    #container{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    
+    }
+    #Activity-2{
+        margin: 20px 0;
+    }
+  }
+
+  #Card{
+    display: flex;
+   background-color: rgb(243, 243, 243);
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    text-align: center;
+   padding: 20px;
+   border-radius: 15px;
+   margin-bottom: 20px;
+   border-top: 4px solid black;
+   border-bottom: 4px solid red;
+   color: #967d67;
+  }
+  #Card p{
+    width: 200px;
+  }
+  img{
+   width: 30%;
+   border-radius: 15px;
+}
